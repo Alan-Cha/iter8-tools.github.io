@@ -13,4 +13,28 @@ body {
   background: black;
   border: 0;
   margin: 0;
+  position: relative;
+}
+
+h3 {
+  color: black;
+}
+
+.white_box {
+  height: 200px;
+  width: 30%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+}
+
+#left_box {
+  float: left;
+}
+
+#right_box {
+  float: right; 
 }
