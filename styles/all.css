@@ -8,7 +8,7 @@ body {
 }
 
 .black_background {
-  height: 500px;
+  height: 300px;
   width: 100%;
   background: black;
   border: 0;
@@ -17,9 +17,12 @@ body {
 }
 
 h3 {
-  color: white;
   margin: 0;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#title {
+  color: white;
 }
 
 h5 {
@@ -30,6 +33,19 @@ h5 {
 h6 {
   color: white;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#call_to_action {
+  color: white;
+  background: #0F62FE;
+  border-radius: 23.5px;
+  text-decoration: none;
+  padding: 1.5%;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#call_to_action:hover {
+  background: #163583;
 }
 
 .white_box {
@@ -57,17 +73,8 @@ h6 {
   display: inline-block;
 }
 
-#call_to_action {
-  color: white;
-  background: #0F62FE;
-  border-radius: 23.5px;
-  text-decoration: none;
-  padding: 1.5%;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-#call_to_action:hover {
-  background: #163583;
+.feature {
+  coor: black;
 }
 
 .video_div {
