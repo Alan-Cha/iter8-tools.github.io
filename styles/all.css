@@ -17,7 +17,19 @@ body {
 }
 
 h3 {
-  color: black;
+  color: white;
+  margin: 0;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h5 {
+  color: white;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h6 {
+  color: white;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .white_box {
@@ -26,15 +38,34 @@ h3 {
   background: white;
   border-radius: 12px;
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
-  z-index: 1;
-  position: absolute;
+  /* z-index: 1;
+  position: absolute; */
   display: inline-block;
 }
 
 #left_box {
   float: left;
+  display: inline-block;
+}
+
+#middle_box {
+  display: inline-block;
 }
 
 #right_box {
-  float: right; 
+  float: right;
+  display: inline-block;
+}
+
+#call_to_action {
+  color: white;
+  background: #0F62FE;
+  border-radius: 23.5px;
+  text-decoration: none;
+  padding: 1.5%;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#call_to_action:hover {
+  background: #163583;
 }
