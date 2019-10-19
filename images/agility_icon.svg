@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="72px" viewBox="0 0 78 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>noun_Agile workflow method_1211690</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.5%" y="-3.0%" width="106.9%" height="106.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="04-Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="37" transform="translate(-908.000000, -791.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-9-Copy" transform="translate(81.000000, 723.000000)">
+                <g id="Group-8" filter="url(#filter-1)" transform="translate(805.000000, 0.000000)">
+                    <g id="Group-7" transform="translate(26.000000, 70.000000)">
+                        <g id="noun_Agile-workflow-method_1211690" transform="translate(-0.000000, 0.000000)">
+                            <g id="Group">
+                                <g>
+                                    <path d="M34.5945946,3.54138301 C49.1079951,4.6454368 60.5405405,16.7713951 60.5405405,31.5675676 C60.5405405,46.9468459 48.1891434,59.441301 32.8648649,59.6724168 L32.8648649,59.6756757 L0,59.6756757 L0,51.027027 L32,51.027027 L32,51.0223171 C32.1437654,51.0254517 32.2879149,51.027027 32.4324324,51.027027 C43.1795952,51.027027 51.8918919,42.3147303 51.8918919,31.5675676 C51.8918919,21.5512354 44.3242172,13.3024283 34.5945946,12.226873 L34.5945946,17.2972973 L25.9459459,8.64864865 L34.5945946,0 L34.5945946,3.54138301 Z M10.6202171,49.2972973 C6.68400164,44.4606123 4.32432432,38.289656 4.32432432,31.5675676 C4.32432432,17.4726955 14.6988069,5.80091373 28.22823,3.77176424 L23.3513514,8.64864865 L27.4535786,12.7508758 C19.1184799,14.9504695 12.972973,22.5413386 12.972973,31.5675676 C12.972973,39.4507699 17.6605709,46.239125 24.4004311,49.2972973 L10.6202171,49.2972973 Z M61.4054054,64 L61.4054054,46.7027027 L70.0540541,55.3513514 L61.4054054,64 Z" id="Shape"></path>
+                                    <path d="M55.0522608,51.027027 L63.1351351,51.027027 L63.1351351,59.6756757 L43.2432432,59.6756757 L43.2432432,59.3866514 C47.8418455,57.5983051 51.8873466,54.7026018 55.0522608,51.027027 Z" id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
