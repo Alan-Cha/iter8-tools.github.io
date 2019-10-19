@@ -69,3 +69,11 @@ h6 {
 #call_to_action:hover {
   background: #163583;
 }
+
+.video_div {
+  display: inline-block;
+}
+
+.video_title {
+  color: black;
+}
