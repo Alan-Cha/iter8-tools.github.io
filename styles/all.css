@@ -17,7 +17,7 @@ body {
 
 
 .black_background {
-  height: 60%;
+  height: 80%;
   width: 100%;
   background: black;
   border: 0;
@@ -29,13 +29,14 @@ body {
 
 #header_section {
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #header_text {
   z-index: 2;
   position: relative;
-  width: 30%;
+  width: 45%;
   margin-right: 0;
   display: inline-block;
 }
@@ -94,16 +95,18 @@ h6 {
   z-index: 2;
   position: relative;
   top: 10px;
-  margin-right: 3%;
+  /* margin-right: 3%; */
   margin-left: 3%;
-  /* float: right; */
+  float: right;
 }
 
 #three_white_boxes {
-  padding: 2%;
+  padding: 0;
   z-index: 3;
   position: relative;
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .white_box {
@@ -114,16 +117,19 @@ h6 {
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
   display: inline-block;
   padding: 3%;
-  margin: 5px;
+  margin-right: 5px;
+  margin-left: 0px;
 }
 
 #left_box {
   float: left;
   display: inline-block;
+  margin-right: 10%;
 }
 
 #middle_box {
   display: inline-block;
+  margin-right: 10%;
 }
 
 #right_box {
