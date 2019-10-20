@@ -95,9 +95,7 @@ h6 {
   z-index: 2;
   position: relative;
   top: 10px;
-  /* margin-right: 3%; */
   margin-left: 3%;
-  float: right;
 }
 
 #three_white_boxes {
@@ -149,6 +147,10 @@ h6 {
 p {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: lighter;
+}
+
+#video_section {
+  margin-left: 3%;
 }
 
 .video_div {
