@@ -7,6 +7,11 @@ body {
   border: 0;
 }
 
+.all_text {
+  line-height: 26px;
+}
+
+
 .black_background {
   height: 60%;
   width: 100%;
@@ -15,37 +20,53 @@ body {
   margin: 0;
   position: absolute;
   z-index: 1;
+  top: 0;
+}
+
+#header_section {
+  margin-top: 5%;
+  margin-left: 3%;
 }
 
 #header_text {
   z-index: 2;
   position: relative;
-  padding-top: 5%;
-  padding-left: 3%;
   width: 30%;
   margin-right: 0;
   display: inline-block;
-
 }
 
 h3 {
   margin: 0;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 #title {
   color: white;
+  margin-bottom: 10%;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 h5 {
   color: white;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#description {
+  line-height: 28px;
 }
 
 h6 {
   color: white;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  margin-bottom: 5%;
+  margin-bottom: 20%;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 #call_to_action {
@@ -53,9 +74,9 @@ h6 {
   background: #0F62FE;
   border-radius: 23.5px;
   text-decoration: none;
-  padding: 1.5%;
+  padding: 5%;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 #call_to_action:hover {
@@ -65,11 +86,12 @@ h6 {
 #header_diagram {
   display: inline-block;
   height: 10%;
-  width: 30%;
+  width: 300px;
   z-index: 2;
   position: relative;
-  top: 5px;
+  top: 10px;
   margin-right: 3%;
+  margin-left: 3%;
   /* float: right; */
 }
 
@@ -81,8 +103,8 @@ h6 {
 }
 
 .white_box {
-  height: 200px;
-  width: 20%;
+  height: 300px;
+  width: 300px;
   background: white;
   border-radius: 12px;
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
@@ -105,8 +127,17 @@ h6 {
   display: inline-block;
 }
 
+.icon {
+  drop-shadow: none;
+}
+
 .feature {
-  coor: black;
+  color: black;
+}
+
+p {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: lighter;
 }
 
 .video_div {
@@ -116,5 +147,5 @@ h6 {
 
 .video_title {
   color: black;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
