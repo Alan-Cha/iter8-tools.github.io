@@ -8,7 +8,7 @@ body {
 }
 
 .black_background {
-  height: 40%;
+  height: 60%;
   width: 100%;
   background: black;
   border: 0;
@@ -70,22 +70,24 @@ h6 {
   position: relative;
   top: 5px;
   margin-right: 3%;
+  /* float: right; */
 }
 
 #three_white_boxes {
   padding: 2%;
   z-index: 3;
   position: relative;
+  margin-top: 5%;
 }
 
 .white_box {
   height: 200px;
-  width: 30%;
+  width: 20%;
   background: white;
   border-radius: 12px;
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
   display: inline-block;
-  padding: 1%;
+  padding: 3%;
   margin: 5px;
 }
 
