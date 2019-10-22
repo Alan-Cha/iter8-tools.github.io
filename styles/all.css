@@ -17,8 +17,8 @@ body {
 
 
 .black_background {
-  height: 1312px;
-  width: 800px;
+  height: 80%;
+  width: 100%;
   background: black;
   border: 0;
   margin: 0;
@@ -28,17 +28,17 @@ body {
 }
 
 #header_section {
-  margin-top: 88px;
-  margin-left: 61px;
-  margin-right: 61px;
-  margin-bottom: 104px;
-  height: 497px;
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 5%;
+  margin-bottom: 8%;
+  height: 28%;
 }
 
 #header_text {
   z-index: 2;
   position: relative;
-  width: 554px;
+  width: 42%;
   margin-right: 0;
   display: inline-block;
 }
@@ -52,7 +52,7 @@ h3 {
 
 #title {
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 10%;
   font-size: 32px;
   font-weight: lighter;
 }
@@ -70,7 +70,7 @@ h5 {
 h6 {
   color: white;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 20%;
   font-weight: lighter;
   font-size: 16px;
   line-height: 26px;
@@ -81,9 +81,9 @@ h6 {
   background: #0F62FE;
   border-radius: 23.5px;
   text-decoration: none;
-  padding: 25px;
+  padding: 5%;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  /* margin-top: 10%; */
+  margin-top: 10%;
 }
 
 #call_to_action:hover {
@@ -92,43 +92,43 @@ h6 {
 
 #header_diagram {
   display: inline-block;
-  width: 597px;
+  width: 46%;
   z-index: 2;
   position: relative;
   top: 10px;
-  margin-left: 19px;
+  margin-left: 3%;
 }
 
 #three_white_boxes {
   padding: 0;
   z-index: 3;
   position: relative;
-  margin-top: 138px;
-  margin-left: 81px;
-  margin-right: 81px;
-  margin-bottom: 81px;
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 5%;
+  margin-bottom: 6%;
 }
 
 .white_box {
-  height: 395px;
-  width: 346px;
+  height: 22%;
+  width: 24.5%;
   background: white;
   border-radius: 12px;
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
   display: inline-block;
-  padding: 50px;
+  padding: 3%;
   margin-left: 0px;
 }
 
 #left_box {
   float: left;
   display: inline-block;
-  margin-right: 56px;
+  margin-right: 4%;
 }
 
 #middle_box {
   display: inline-block;
-  margin-right: 56px;
+  margin-right: 4%;
 }
 
 #right_box {
@@ -150,25 +150,25 @@ p {
 }
 
 #video_section {
-  margin-left: 81px;
-  margin-top: 110px;
-  margin-bottom: 104px;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .video_div {
   display: inline-block;
-  width: 547px;
-  height: 402px;
-  margin-bottom: 104px;
+  width: 42%;
+  height: 5%;
+  margin-bottom: 6%;
 }
 
 #video_div1 {
-  margin-right: 60px;
+  margin-right: 5%;
 }
 
 .video_title {
   color: black;
-  margin-bottom: 60px;
+  margin-bottom: 5%;
 }
 
 iframe {
