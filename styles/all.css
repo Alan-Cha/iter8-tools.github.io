@@ -79,7 +79,7 @@ h6 {
 #call_to_action {
   color: white;
   background: #0F62FE;
-  border-radius: 23.5px;
+  border-radius: 25px;
   text-decoration: none;
   padding: 5%;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -99,6 +99,12 @@ h6 {
   margin-left: 3%;
 }
 
+@media screen and (max_width: 600px) {
+  #header_section, #header_diagram {
+    width: 100%;
+  }
+}
+
 #three_white_boxes {
   padding: 0;
   z-index: 3;
@@ -110,29 +116,35 @@ h6 {
 }
 
 .white_box {
-  height: 22%;
+  float: left;
+  /* height: 22%; */
   width: 24.5%;
   background: white;
   border-radius: 12px;
   box-shadow: 10px 10px 10px rgba(163, 163, 163, 0.5);
-  display: inline-block;
+  /* display: inline-block; */
   padding: 3%;
-  margin-left: 0px;
+  /* margin-left: 0px; */
+}
+
+@media screen and (max_width: 800px) {
+  #left_box, #middle_box, #right_box {
+    width: 100%;
+  }
 }
 
 #left_box {
-  float: left;
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 4%;
 }
 
 #middle_box {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 4%;
 }
 
 #right_box {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .icon {
@@ -151,7 +163,7 @@ p {
 
 #video_section {
   margin-left: 6%;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
 }
 
@@ -160,6 +172,7 @@ p {
   width: 42%;
   height: 5%;
   margin-bottom: 6%;
+  margin-top: 5%;
 }
 
 #video_div1 {
@@ -171,7 +184,13 @@ p {
   margin-bottom: 5%;
 }
 
-iframe {
+video {
   width: 100%;
-  height: 402px;
+  height: 100%;
+}
+
+@media only screen and (max_width: 600px) {
+  #video_div1, #video_div2 {
+    width: 100%;
+  }
 }
