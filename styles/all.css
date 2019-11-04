@@ -15,7 +15,6 @@ body {
   font-weight: bold;
 }
 
-
 .black_background {
   height: 80%;
   width: 100%;
@@ -25,6 +24,42 @@ body {
   position: absolute;
   z-index: 1;
   top: 0;
+}
+
+#top {
+  z-index: 2;
+  margin-top: 8%;
+  margin-left: 6%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#title {
+  color: white;
+  font-size: 32px;
+  font-weight: lighter;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+#header_icons {
+  display: inline-block;
+  float: right;
+}
+
+.header_icon {
+  z-index: 2;
+  position: relative;
+  height: 30px;
+}
+
+.header_icon:hover {
+  color: blue;
+}
+
+#header_icon_left {
+  margin-right: 23px;
 }
 
 #header_section {
@@ -41,6 +76,7 @@ body {
   width: 42%;
   margin-right: 0;
   display: inline-block;
+  vertical-align: top;
 }
 
 h3 {
@@ -48,13 +84,7 @@ h3 {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 32px;
   font-weight: lighter;
-}
-
-#title {
   color: white;
-  margin-bottom: 10%;
-  font-size: 32px;
-  font-weight: lighter;
 }
 
 h5 {
@@ -112,7 +142,8 @@ h6 {
   margin-top: 5%;
   margin-left: 6%;
   margin-right: 5%;
-  margin-bottom: 6%;
+  margin-bottom: 5%;
+  height: 400px;
 }
 
 .white_box {
@@ -163,20 +194,24 @@ p {
 
 #video_section {
   margin-left: 6%;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  z-index: 3;
+  height: 500px;
 }
 
 .video_div {
   display: inline-block;
-  width: 42%;
-  height: 5%;
+  width: 43%;
+  height: 80%;
   margin-bottom: 6%;
-  margin-top: 5%;
+  margin-top: 2%;
+  vertical-align: top;
 }
 
 #video_div1 {
   margin-right: 5%;
+  float: left;
 }
 
 .video_title {
@@ -184,9 +219,14 @@ p {
   margin-bottom: 5%;
 }
 
+#high_level_diagram {
+  width: 80%;
+}
+
 video {
   width: 80%;
-  height: 80%;
+  height: 100%;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 800px) {

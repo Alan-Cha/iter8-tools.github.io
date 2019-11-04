@@ -11,16 +11,24 @@
 
 <body>
   <header>
+
   </header>
   <!--header section-->
   <div class = "black_background"> </div>
+  <div id = "top">
+    <h3 id = "title" class = "all_text">iter8</h3>
+    <div id = "header_icons">
+      <a href = "https://slack.com/"><img class = "header_icon" id = "header_icon_left" src = "images/slack_icon.svg"/> </a>
+      <a href = "https://github.com/iter8-tools"><img class = "header_icon" src = "images/github_logo.svg"/> </a>
+    </div>
+  </div>
   <div id = "header_section">
     <div id = "header_text">
-      <h3 id = "title" class = "all_text">iter8</h3> <h5 id = "description">iter8 enables automated canary releases and
-        A/B testing for cloud-native development.</h5>
-      <h6 class = "all_text">iter8 allows developers emerge from the darkness
-        of blind deployment, bringing ideas and features
-        into the light with continuous experimentation.</h6>
+      <h5 id = "description">iter8 enables automated canary releases and A/B testing
+        for cloud-native development using Istio.</h5>
+      <h6 class = "all_text">Deliver code to production more frequently
+        with peace of mind. Be empowered to bring ideas quickly to market
+        by embracing continuous experimentation with safeguards.</h6>
         <a id = "call_to_action" href = "https://github.com/iter8-tools">
           Try it out
         </a>
@@ -31,26 +39,23 @@
   <!--three white boxes-->
   <div id = "three_white_boxes">
     <div class = "white_box" id = "left_box">
-      <img class = "icon" src = "images/open_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 is <strong>Open</strong></h3>
-      <p class = "all_text">It’s a distributed effort, guided by the principles
-        of the open-source movements. iter8’s users are also its makers, 
-        and everyone in the community is encouraged to contribute.</p>
+      <img class = "icon" src = "images/analytics_icon_noshadow.svg" alt = "icon">
+      <h5 class = "feature all_text">iter8 is <strong>Analytics-Driven</strong></h5>
+      <p class = "all_text">iter8’s traffic shifting relies on robust statistical techniques,
+        and the duality of the controller and analytics enables an
+        ever-powerful decision-making engine. </p>
     </div>
     <div class = "white_box" id = "middle_box">
-      <img class = "icon" src = "images/analytics_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 is <strong>Analytics-Driven</strong></h5>
-      <p class = "all_text">iter8’s traffic shifting relies on robust statistical techniques in
-        execution. The duality of the controller and analytics enables an
-        ever-powerful decision-making engine to power the tool. </p>
+      <img class = "icon" src = "images/open_icon_noshadow.svg" alt = "icon">
+      <h5 class = "feature all_text">iter8 is <strong>Open</strong></h3>
+      <p class = "all_text">iter8 relies on Istio for traffic management.
+        Iter8 integrates with Prometheus and Grafana.</p>
     </div>
     <div class = "white_box" id = "right_box">
-      <img class = "icon" src = "images/agility_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 allows <strong>Agility</strong></h3>
-      <p class = "all_text">Unleash the power of going all in, all while maintaining necessary
-        safeguards. iter8 enables agility with control, empowering developers
-        to embrace continuous cloud-native development.
-      </p>
+      <img class = "icon" src = "images/customizable_icon.svg" alt = "icon">
+      <h5 class = "feature all_text">iter8 is <strong>Customizable</strong></h3>
+      <p class = "all_text">Bring your own metrics. Define multiple success
+        criteria for your experiments - comparative as well as threshold-based. </p>
     </div>
   </div>
 
@@ -58,9 +63,7 @@
   <div id = "video_section">
     <div class = "video_div" id = "video_div1">
       <h3 class = "video_title">How it works</h3>
-      <video controls>
-        <source src="videos/iter8-demo.mp4" type=video/mp4>
-      </video>
+      <img id = "high_level_diagram" src="images/high_level.svg" alt = "high level diagram">
     </div>
     <div class = "video_div" id = video_div2>
       <h3 class = "video_title">How to use iter8</h3>

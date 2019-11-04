@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="106px" viewBox="0 0 118 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>noun_open source_1711545</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.5%" y="-12.7%" width="128.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.639464447   0 0 0 0 0.639464447   0 0 0 0 0.639464447  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="04-Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="44" transform="translate(-493.000000, -803.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-9-Copy" transform="translate(80.000000, 754.000000)">
+                <g id="Group-5" filter="url(#filter-1)" transform="translate(403.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(30.000000, 68.000000)">
+                        <g id="noun_open-source_1711545">
+                            <g id="Group">
+                                <polygon id="Path" points="32.649 0.25 0.899 32 32.649 63.75 32.649 51.05 13.6 32 32.649 12.95"></polygon>
+                                <polygon id="Path" points="45.352 63.75 77.102 32 45.352 0.25 45.352 12.95 64.398 32 45.352 51.05"></polygon>
+                                <rect id="Rectangle" transform="translate(38.999793, 32.000107) rotate(-135.000000) translate(-38.999793, -32.000107) " x="32.6498538" y="25.650168" width="12.6998782" height="12.6998782"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
