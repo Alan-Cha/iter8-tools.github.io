@@ -122,7 +122,7 @@ h6 {
 
 #header_diagram {
   display: inline-block;
-  width: 46%;
+  width: 22%;
   z-index: 2;
   position: relative;
   top: 10px;
@@ -219,7 +219,7 @@ p {
   margin-bottom: 5%;
 }
 
-#high_level_diagram {
+#low_level_diagram {
   width: 80%;
 }
 
