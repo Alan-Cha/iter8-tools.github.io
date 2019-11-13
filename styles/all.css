@@ -16,9 +16,9 @@ body {
 }
 
 .black_background {
-  height: 600px;
+  height: 635px;
   width: 100%;
-  background: black;
+  background: #171717;
   border: 0;
   margin: 0;
   position: absolute;
@@ -26,9 +26,34 @@ body {
   top: 0;
 }
 
-@media screen and (max-width: 800px) {
+#header_diagram {
+  display: inline-block;
+  width: 843px;
+  /* z-index: 2; */
+  position: absolute;
+  bottom: 20px;
+  top: 10px;
+  right: 0;
+  /* z-index: 1; */
+  margin-top: 205px;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 675px) {
   .black_background {
     width: 100%;
+    margin: 0;
+    /* margin-top: 10%; */
+  }
+}
+
+@media screen and (max-width: 675px) {
+  #header_diagram {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 400px;
     /* margin-top: 10%; */
   }
 }
@@ -37,8 +62,16 @@ body {
   z-index: 2;
   margin-top: 100px;
   margin-left: 6%;
-  margin-right: 5%;
+  margin-right: 6%;
   margin-bottom: 5%;
+}
+
+@media screen and (max-width: 675px) {
+  #top {
+    width: 90%;
+    /* margin: 0; */
+    /* margin-top: 10%; */
+  }
 }
 
 #title {
@@ -73,15 +106,16 @@ body {
 #header_section {
   margin-top: 40px;
   margin-left: 6%;
-  margin-right: 5%;
-  margin-bottom: 100px;
+  margin-right: 0;
+  margin-bottom: 150px;
   height: 200px;
 }
 
 #header_text {
   z-index: 2;
   position: relative;
-  width: 42%;
+  /* width: 635px; */
+  width: 60%;
   margin-right: 0;
   display: inline-block;
   vertical-align: top;
@@ -95,16 +129,21 @@ h3 {
   color: white;
 }
 
-h5 {
+/* h5 {
   color: white;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 20px;
-}
+} */
 
 #description {
-  line-height: 28px;
+  font-weight: regular;
+  line-height: 52px;
   margin-bottom: 50px;
   margin-top: 0;
+  color: white;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 32px;
+  z-index: 0;
 }
 
 h6 {
@@ -119,29 +158,35 @@ h6 {
 #call_to_action {
   color: white;
   background: #0F62FE;
-  border-radius: 25px;
+  border-radius: 5px;
   text-decoration: none;
   padding: 20px;
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   margin-top: 50px;
+  height: 726px;
+  width: 1312px;
+  font-size: 16px;
 }
 
 #call_to_action:hover {
   background: #163583;
 }
 
-#header_diagram {
-  display: inline-block;
-  width: 22%;
-  z-index: 2;
-  position: relative;
-  top: 10px;
-  margin-left: 3%;
+@media screen and (max-width: 675px) {
+  #header_section {
+    width: 90%;
+    text-align: center;
+    margin-right: 6%;
+    margin-left: 6%;
+  }
 }
 
-@media screen and (max-width: 800px) {
-  #header_section, #header_diagram {
+@media screen and (max-width: 675px) {
+  #header_text {
     width: 100%;
+    text-align: center;
+    margin: 0;
+    /* font-size: */
   }
 }
 
@@ -157,16 +202,16 @@ h6 {
   /* width: 100%; */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 675px) {
   #three_white_boxes {
     width: 80%;
-    margin-top: 10%;
+    margin-top: 200px;
   }
 }
 
 .white_box {
   float: left;
-  height: 400px;
+  height: 350px;
   width: 24.5%;
   background: white;
   border-radius: 12px;
@@ -176,7 +221,7 @@ h6 {
   /* margin-left: 0px; */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 675px) {
   #left_box, #middle_box, #right_box {
     width: 100%;
     margin-top: 10%;
@@ -203,12 +248,15 @@ h6 {
 
 .feature {
   color: black;
-  font-weight: lighter;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .feature_description {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 23px;
+  font-weight: normal;
 }
 
 p {
@@ -249,11 +297,11 @@ p {
 .video_title {
   color: black;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 #low_level_diagram {
-  width: 80%;
-  height: 200px;
+  width: 100%;
 }
 
 video {
@@ -262,8 +310,8 @@ video {
   vertical-align: top;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 675px) {
   #video_div1, #video_div2 {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%; /* The width is 100%, when the viewport is 675px or smaller */
   }
 }
