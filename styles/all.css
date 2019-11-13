@@ -180,7 +180,7 @@ h6 {
   position: relative;
   margin-top: 25px;
   margin-left: 6%;
-  margin-right: 5%;
+  margin-right: 6%;
   margin-bottom: 25px;
   height: 400px;
 }
@@ -240,15 +240,15 @@ h6 {
 #how_it_works_section {
   margin-top: 50px;
   margin-left: 6%;
-  margin-right: 5%;
+  margin-right: 6%;
   float: left;
-  /* width: 90%; */
+  width: 88%;
 }
 
 #how_to_use_iter8_section {
   margin-top: 50px;
   margin-left: 6%;
-  margin-right: 5%;
+  margin-right: 6%;
   margin-bottom: 100px;
   float: left;
 }
