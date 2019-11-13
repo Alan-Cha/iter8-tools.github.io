@@ -8,7 +8,7 @@ body {
 }
 
 .all_text {
-  /* line-height: 26px; */
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .all_text.span {
@@ -29,22 +29,18 @@ body {
 #header_diagram {
   display: inline-block;
   width: 843px;
-  /* z-index: 2; */
   position: absolute;
   bottom: 20px;
   top: 10px;
   right: 0;
-  /* z-index: 1; */
   margin-top: 205px;
   margin-bottom: 10px;
-
 }
 
 @media screen and (max-width: 675px) {
   .black_background {
     width: 100%;
     margin: 0;
-    /* margin-top: 10%; */
   }
 }
 
@@ -54,7 +50,6 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 400px;
-    /* margin-top: 10%; */
   }
 }
 
@@ -69,8 +64,6 @@ body {
 @media screen and (max-width: 675px) {
   #top {
     width: 90%;
-    /* margin: 0; */
-    /* margin-top: 10%; */
   }
 }
 
@@ -81,7 +74,6 @@ body {
   position: relative;
   z-index: 2;
   display: inline-block;
-  /* margin-bottom: 0%; */
 }
 
 #header_icons {
@@ -114,7 +106,6 @@ body {
 #header_text {
   z-index: 2;
   position: relative;
-  /* width: 635px; */
   width: 60%;
   margin-right: 0;
   display: inline-block;
@@ -123,17 +114,11 @@ body {
 
 h3 {
   margin: 0;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
   font-size: 32px;
   font-weight: lighter;
   color: white;
 }
-
-/* h5 {
-  color: white;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 20px;
-} */
 
 #description {
   font-weight: regular;
@@ -141,14 +126,14 @@ h3 {
   margin-bottom: 50px;
   margin-top: 0;
   color: white;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
   font-size: 32px;
   z-index: 0;
 }
 
 h6 {
   color: white;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
   margin-bottom: 20%;
   font-weight: lighter;
   font-size: 16px;
@@ -161,7 +146,7 @@ h6 {
   border-radius: 5px;
   text-decoration: none;
   padding: 20px;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
   margin-top: 50px;
   height: 726px;
   width: 1312px;
@@ -186,7 +171,6 @@ h6 {
     width: 100%;
     text-align: center;
     margin: 0;
-    /* font-size: */
   }
 }
 
@@ -199,7 +183,6 @@ h6 {
   margin-right: 5%;
   margin-bottom: 25px;
   height: 400px;
-  /* width: 100%; */
 }
 
 @media screen and (max-width: 675px) {
@@ -216,9 +199,7 @@ h6 {
   background: white;
   border-radius: 12px;
   box-shadow: 0px 2px 24px rgba(163, 163, 163, 0.5);
-  /* display: inline-block; */
   padding: 3%;
-  /* margin-left: 0px; */
 }
 
 @media screen and (max-width: 675px) {
@@ -229,17 +210,14 @@ h6 {
 }
 
 #left_box {
-  /* display: inline-block; */
   margin-right: 4%;
 }
 
 #middle_box {
-  /* display: inline-block; */
   margin-right: 4%;
 }
 
 #right_box {
-  /* display: inline-block; */
 }
 
 .icon {
@@ -250,7 +228,7 @@ h6 {
   color: black;
   font-weight: normal;
   font-size: 20px;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .feature_description {
@@ -259,31 +237,12 @@ h6 {
   font-weight: normal;
 }
 
-p {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-/* #video_section {
-  margin-left: 6%;
-  margin-top: 10%;
-  z-index: 3;
-  height: 500px;
-} */
-
-/* .how_div {
-  display: inline-block;
-  width: 43%;
-  height: 300px;
-  margin-bottom: 6%;
-  margin-top: 2%;
-  vertical-align: top;
-} */
-
 #how_it_works_section {
   margin-top: 50px;
   margin-left: 6%;
   margin-right: 5%;
   float: left;
+  /* width: 90%; */
 }
 
 #how_to_use_iter8_section {
@@ -312,6 +271,6 @@ video {
 
 @media screen and (max-width: 675px) {
   #video_div1, #video_div2 {
-    width: 100%; /* The width is 100%, when the viewport is 675px or smaller */
+    width: 100%;
   }
 }
