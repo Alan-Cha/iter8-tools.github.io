@@ -53,6 +53,15 @@ body {
   }
 }
 
+@media screen and (max-width: 375px) {
+  #header_diagram {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 450px;
+  }
+}
+
 #top {
   z-index: 2;
   margin-top: 100px;
@@ -146,7 +155,6 @@ h6 {
   border-radius: 5px;
   text-decoration: none;
   padding: 20px;
-
   margin-top: 50px;
   height: 726px;
   width: 1312px;
