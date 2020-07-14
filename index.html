@@ -1,94 +1,162 @@
 <!DOCTYPE html>
-<html>
-<html prefix="og: http://ogp.me/ns#">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+  <!-- Title -->
+  <title>iter8 Home Page</title>
 
-  <title>iter8</title>
-  <meta property="og:image" content="images/og_tag.png" />
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152813895-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.png">
 
-    gtag('config', 'UA-152813895-1');
-  </script>
+  <!--  Meta tags -->
+  <meta name="keywords" content="Iter8, A/B testing, microservices, Kubernetes, software, cloud, analytics, canary release">
+  <meta name="description" content="Iter8 supports cloud-native, automated canary releases and A/B testing of microservices on Kubernetes. Under the hood, iter8 uses robust statistical algorithms to determine the best version of your service, progressively shift traffic towards this version, and eventually rollout this version, where the notion of best is determined by the criteria you specify in your iter8 experiment.">
 
+  <!-- Schema.org -->
+  <meta itemprop="name" content="Deliver Better Software with Iter8">
+  <meta itemprop="description" content="Iter8 supports cloud-native, automated canary releases and A/B testing of microservices on Kubernetes. Under the hood, iter8 uses robust statistical algorithms to determine the best version of your service, progressively shift traffic towards this version, and eventually rollout this version, where the notion of best is determined by the criteria you specify in your iter8 experiment.">
+  <meta itemprop="image" content="assets/img-temp/iter8-promo-resized-open-graph.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@Iter8_app">
+  <meta name="twitter:title" content="Deliver Better Software with Iter8">
+  <meta name="twitter:description" content="Iter8 supports cloud-native, automated canary releases and A/B testing of microservices on Kubernetes. Under the hood, iter8 uses robust statistical algorithms to determine the best version of your service, progressively shift traffic towards this version, and eventually rollout this version, where the notion of best is determined by the criteria you specify in your iter8 experiment.">
+  <meta name="twitter:creator" content="@Iter8_app">
+  <meta name="twitter:image" content="assets/img-temp/iter8-promo-resized-open-graph.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Deliver Better Software with Iter8">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://htmlstream.com/preview/docs-ui-kit/index.html">
+  <meta property="og:image" content="assets/img-temp/iter8-promo-resized-open-graph.png">
+  <meta property="og:description" content="Iter8 supports cloud-native, automated canary releases and A/B testing of microservices on Kubernetes. Under the hood, iter8 uses robust statistical algorithms to determine the best version of your service, progressively shift traffic towards this version, and eventually rollout this version, where the notion of best is determined by the criteria you specify in your iter8 experiment.">
+  <meta property="og:site_name" content="Htmlstream">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css">
+
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="assets/css/theme.css">
+
+  <!-- CSS Demo -->
+  <link rel="stylesheet" href="assets/css/demo.css">
 </head>
-
 <body>
-  <header>
+  <!-- Header -->
+  <header class="duik-header">
+    <!-- Navbar -->
+    <nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark bg-black-md fixed-top flex-nowrap transition-bg-03s"
+         data-onscroll-classes="bg-black"
+         data-offset-value="50">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logo-light-cropped.png" alt="Iter8" style="width: 150px;"></a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- End Navbar -->
   </header>
+  <!-- End Header -->
 
-  <p>This is v1 version!!!</p>
+  <!-- Promo Section -->
+  <section class="duik-promo" style="background: url(assets/img-temp/iter8-promo-resized.png) no-repeat right; background-size: 59%; background-color: #111111; ">
+    <div class="container duik-promo-container">
 
-  <!--header section-->
-  <div class = "black_background">
-    <img id = "header_diagram" src = "images/high_level_diagram.png" alt = "header illustration">
-  </div>
-  <div id = "top">
-    <h3 id = "title" class = "all_text">iter8</h3>
-    <div id = "header_icons">
-      <a href = "https://join.slack.com/t/iter8-tools/shared_invite/enQtODU0NTczMTQ5NDU4LTJmNGE1OTBhOWI4NzllZGE0ZjdhM2M3MzJlMjcxYjliMTJlM2YxMzQ4OWQ5NGViYTM2MTU4MWRkZTgxNzZiMzg"><img class = "header_icon" id = "header_icon_left" src = "images/slack_icon.svg"/> </a>
-      <a href = "https://github.com/iter8-tools/docs"><img class = "header_icon" src = "images/github_logo.svg"/> </a>
+      <div class="d-flex justify-content-center1 position-relative mh-30rem h-75vh">
+        <div class="align-self-center">
+          <h1 class="text-white mb-1">Deliver Better Software in the Cloud</h1>
+          <p class="lead mb-5" style="max-width: 60%">Use iter8's analytics-driven continuous experimentation for reliable and frequent releases of high-quality microservices on Kubernetes.</p>
+          <!-- TODO: change link -->  
+          <a class="btn btn-sm btn-light mr-2" href="https://github.com/iter8-tools/docs" target="_self">Try iter8 Now</a>
+            <a class="btn btn-sm btn-dark" href="https://github.com/iter8-tools/docs" target="_self"><i class="fab fa-github mr-1"></i> Star us on Github</a>
+            <a class="btn btn-sm btn-dark" href="https://join.slack.com/t/iter8-tools/shared_invite/enQtODU0NTczMTQ5NDU4LTJmNGE1OTBhOWI4NzllZGE0ZjdhM2M3MzJlMjcxYjliMTJlM2YxMzQ4OWQ5NGViYTM2MTU4MWRkZTgxNzZiMzg" target="_self"><i class="fab fa-slack mr-1"></i> Join us on Slack </a>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id = "header_section">
-    <div id = "header_text">
-      <p id = "description" class = "all_text">Automate canary releases and A/B testing for cloud-native development.</p>
-      <a id = "call_to_action" class = "all_text" href = "https://github.com/iter8-tools/docs">
-        Try it out </a>
-    </div>
-  </div>
+  </section>
+  <!-- End Promo Section -->
 
-  <!--white boxes-->
-  <div id = "three_white_boxes">
-    <div class = "white_box" id = "left_box">
-      <img class = "icon" src = "images/analytics_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 is <strong>Analytics-Driven</strong></h5>
-      <p class = "feature_description all_text">Harness iter8’s robust statistical techniques.
-        Sit back and relax as our decision-making engine does the work for you.  </p>
-    </div>
-    <div class = "white_box" id = "middle_box">
-      <img class = "icon" src = "images/open_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 is <strong>Open</strong></h3>
-      <p class = "feature_description all_text">Integrate iter8 with commonly used
-        technologies, such as Istio, Prometheus and Grafana.
-      </p>
-    </div>
-    <div class = "white_box" id = "right_box">
-      <img class = "icon" src = "images/customizable_icon.svg" alt = "icon">
-      <h5 class = "feature all_text">iter8 is <strong>Customizable</strong></h3>
-      <p class = "feature_description all_text" class = "all_text">
-        Bring your own metrics. Define multiple experimental success criteria, be it comparative- or threshold-based.
-      </p>
-    </div>
-  </div>
+  <main>
+    <!-- Carousel -->
+    <section class="pb-11 mt-6">
+      <div class="container">
 
-  <!--how it works section-->
-  <div id = "how_it_works_section">
-    <h3 class = "video_title all_text">How it works</h3>
-    <img id = "low_level_diagram" src = "images/low_level_diagram.png" alt = "high level diagram">
-  </div>
+      <div class="row margin-bottom mb-5">
+        <div class="col-sm-4">
+          <div class="card shadow">
+            <span class="border-bottom">
+              <img class="card-img-top" src="assets/img/iter8-overview.png" alt="Automated canary releases">              
+            </span>
 
-  <!--how to use iter8 section-->
-  <div id = "how_to_use_iter8_section">
-    <h3 class = "video_title all_text">How to use iter8</h3>
-    <video controls="true">
-      <source src="videos/iter8-demo.mp4" type=video/mp4>
-    </video>
-  </div>
+            <div class="card-body">
+              <h5 class="card-title">Automate Canary Releases</h5>
+              <p class="card-text">Use advanced statistical algorithms to assess key metrics for your service and progressively shift traffic to the winning release.</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-4">
+          <div class="card shadow">
+            <span class="border-bottom">
+              <img class="card-img-top" src="assets/img/kiali.png" alt="Automated canary releases">              
+            </span>
+
+            <div class="card-body">
+              <h5 class="card-title">Launch Experiments Rapidly</h5>
+              <p class="card-text">With iter8's Kiali UI, you can create and launch canary release experiments for your service in seconds, and observe and control these experiments in real-time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card shadow">
+            <span class="border-bottom">
+              <img class="card-img-top" src="assets/img/iter8-trend.png" alt="Visualize Long-term Trends">              
+            </span>
+
+            <div class="card-body">
+              <h5 class="card-title">Analyze Long-term Trends</h5>
+              <p class="card-text">Analyze how key metrics for your service have evolved over multiple releases using iter8-trend and Grafana.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row margin-top mt-5">
+        <div class="col text-center">
+          <!-- TODO: change link -->
+          <a href="https://github.com/iter8-tools/docs" class="btn btn-primary">Explore iter8</a>
+        </div>
+      </div>        
+
+    </section>
+    <!-- End Carousel -->
+  </main>
+
+  <!-- Go to Top -->
+  <a class="js-go-to duik-go-to" href="javascript:;">
+    <span class="fa fa-arrow-up duik-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/header-fixing.js"></script>
 </body>
-
-<footer>
-
-</footer>
-
 </html>
